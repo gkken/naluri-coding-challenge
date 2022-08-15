@@ -48,6 +48,7 @@ function CalculateCircumference() {
       <button onClick={handleClick} className="calculate-btn">
         Retrieve Pi Value and Calculate Circumference
       </button>
+      <footer></footer>
     </section>
   );
 }
