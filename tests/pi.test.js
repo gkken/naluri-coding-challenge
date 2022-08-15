@@ -82,15 +82,15 @@ test("Accurate up to 10,000 digits of Pi", async () => {
   expect(actual).toBe(expected);
 });
 
-test("Accurate up to 100,000 digits of Pi", () => {
-  let generator = generateDigitsOfPi();
-  let actual = "";
+// test("Accurate up to 100,000 digits of Pi", () => {
+//   let generator = generateDigitsOfPi();
+//   let actual = "";
 
-  for (let counter = 0; counter < 100000; counter++) {
-    actual += generator.next().value;
-  }
+//   for (let counter = 0; counter < 100000; counter++) {
+//     actual += generator.next().value;
+//   }
 
-  let expected = digits100K;
+//   let expected = digits100K;
 
-  expect(actual).toBe(expected);
-}, 50000);
+//   expect(actual).toBe(expected);
+// }, 50000);
