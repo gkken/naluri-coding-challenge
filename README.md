@@ -1,1 +1,1 @@
-# naluri-coding-challenge
+# Naluri Coding Challenge
