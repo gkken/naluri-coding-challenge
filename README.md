@@ -51,7 +51,7 @@ Once server has started, go to the web application which is accessible at `http:
 
 ## Running the Tests
 
-From the repository folder, enter the folder named "tests" and install all dependencies
+From the repository folder, enter the folder named `tests` and install all dependencies
 
 ```
 cd tests/
@@ -93,4 +93,4 @@ If you would like to enable it, you may navigate to `/tests/pi.test.js` and un-c
 ## Limitations
 
 1. While appropriate to calculate the circumference of the sun, this application is not suitable to be used to calculate the circumference of any other circles due to the method used to build the final circumference string
-2. The algorithm for calculating the Pi value is not fully optimised. As a result, the calculation of 100,000 digits of Pi will take approximately 180 seconds. Calculation of Pi value and subsequently circumference, at a precision any higher than 100,000 digits is not advisable.
+2. The algorithm for calculating the Pi value is not fully optimised. As a result, the calculation of a mere 100,000 digits of Pi would require approximately 180 seconds as opposed to an algorithm like Chudnovsky algorithm which, while not fully optimised, is able to calculate 100,000 digits in 8.4 seconds. The use of this application for calculation of Pi value and circumference at a precision any higher than 100,000 digits is not advisable.
