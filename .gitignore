@@ -1,0 +1,7 @@
+.DS_Store
+*.log
+*.sqlite
+server/node_modules
+tests/node_modules
+.swp
+tmp
