@@ -20,21 +20,21 @@ Clone the repository
 git clone https://github.com/gkken/sun-circumference-calculator.git
 ```
 
-Navigate into the server folder and install all dependencies
+Navigate into the `server` folder and install all dependencies
 
 ```
 cd naluri-coding-challenge/server/
 npm install
 ```
 
-From there, navigate to the client folder to install all dependencies
+From there, navigate to the `client` folder to install all dependencies
 
 ```
 cd ../client/
 npm install
 ```
 
-Once client dependencies have been installed. Start the React app from within the `client` folder
+Once `client` dependencies have been installed. Start the React app from within the `client` folder
 
 ```
 npm start
