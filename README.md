@@ -23,7 +23,7 @@ git clone https://github.com/gkken/sun-circumference-calculator.git
 Navigate into the `server` folder and install all dependencies
 
 ```
-cd naluri-coding-challenge/server/
+cd sun-circumference-calculator/server/
 npm install
 ```
 
