@@ -1,4 +1,4 @@
-# Naluri Coding Challenge
+# Sun Circumference Calculator
 
 A web application that calculates and displays the circumference of the sun based on an increasingly precise value of Pi calculated by the server and assuming a radius of 696,340 km. The server will calculate a new digit of Pi every 0.5 seconds. The value of Pi is calculated using an [Unbounded Spigot Algorithm](http://www.cs.ox.ac.uk/jeremy.gibbons/publications/spigot.pdf).
 
@@ -17,7 +17,7 @@ _Note: You need to have [Node.js](https://nodejs.dev/) installed before proceedi
 Clone the repository
 
 ```
-git clone https://github.com/gkken/naluri-coding-challenge.git
+git clone https://github.com/gkken/sun-circumference-calculator.git
 ```
 
 Navigate into the server folder and install all dependencies
